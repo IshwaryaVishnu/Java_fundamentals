@@ -31,7 +31,14 @@ public class App {
 
      int num1 = 20;
      int num2 = 20;
-        System.out.println(num1 == num2);
+     boolean isEqual =num1 == num2;
+        System.out.println(isEqual);
+
+        int num3 = 10;
+        int num4 = 20;
+        boolean notEqual =num3 != num4;
+        System.out.println(notEqual);
+
 
 
 
