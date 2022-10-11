@@ -28,6 +28,7 @@ public class App {
 
      int number = 2;
      System.out.println(--number);
+     /*
 
      int num1 = 20;
      int num2 = 20;
@@ -39,13 +40,17 @@ public class App {
         boolean notEqual =num3 != num4;
         System.out.println(notEqual);
 
+      */
+        //defining an 'age' variable
+        int age1=20;
+        //checking the age
+        if(age1 <=25) {
+            System.out.println("Age is greater than 18");
+        }else {
+            System.out.println("Age is less  than 18");
+        }
 
-
-
-
-
-
-    }
+        }
 }
 
 
